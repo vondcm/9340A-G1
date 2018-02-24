@@ -2,13 +2,13 @@ html{
     width: 100%;
 }
 body {
-	background: #B1A296;
+	background: white;
 	margin: 0px;
 	border: 0px;
 }
 
 .topnav {
-	background-color: #116466;
+	background-color: #24c6ca;
     overflow: hidden;
 	opacity: 9;
     width: 100%;
@@ -59,8 +59,8 @@ header{
     float: left;
     padding:1px;
 	width: 250px;
-	height: 666px;
-	background: #116466;;
+	height: 341px;
+	background: #24c6ca;
      border: 1px solid #557A95;
     margin-top: 6px;
 }
@@ -100,29 +100,6 @@ div ul li a:hover{
     padding-left: 20px;	
 }
 
-
-
-
-.container {
-     background-color: #696969;
-     padding: 20px;
-     margin-top: 15px;
-	 
-}
-
-.container1{
-     background-color: white;
-     padding: 20px;
-     margin-top: 15px;
-	 
-}
-
-.container2 {
-     background-color: white;
-     padding: 20px;
-     margin-top: 15px;
-	 
-}
 #Container {
     background-color: aqua;
     opacity: 0.1;
@@ -131,7 +108,51 @@ div ul li a:hover{
     margin-left: 270px;
     margin-top: 9px;
     margin-right: 10px;
-    height: auto;
+    height: 700px;
+   
+}
+#Container1{
+    background-color: aqua;
+    opacity: 0.1;
+    filter: alpha(opacity=60);
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 9px;
+    margin-right: 10px;
+    height: 700px;
+   
+}
+#Container2{
+    background-color: aqua;
+    opacity: 0.1;
+    filter: alpha(opacity=60);
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 9px;
+    margin-right: 10px;
+    height: 700px;
+   
+}
+#Container3{
+    background-color: aqua;
+    opacity: 0.1;
+    filter: alpha(opacity=60);
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 9px;
+    margin-right: 10px;
+    height: 700px;
+   
+}
+#Container4{
+    background-color: aqua;
+    opacity: 0.1;
+    filter: alpha(opacity=60);
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 9px;
+    margin-right: 10px;
+    height: 700px;
    
 }
 .title {
@@ -156,6 +177,8 @@ br{
     text-align: justify;
 	
 }
+
+
 #gif{
     width: 100%;
     height: 1000px;
