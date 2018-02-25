@@ -30,16 +30,16 @@
 
     <div class="leftcolumn">
 	       <ul>
-	           <li><a href="">Overview of the WWW </a> </li>
-	           <li><a href="">HTTP</a></li>
-	           <li><a href="">URL</a></li>
-	           <li><a href="">HTML</a></li>
-               <li><a href="">HTML Processor</a></li>
+	           <li><a href="#Container">Overview of the WWW </a> </li>
+	           <li><a href="#Container1">HTTP</a></li>
+	           <li><a href="#Container2">URL</a></li>
+	           <li><a href="#Container3">HTML</a></li>
+               <li><a href="#Container4">HTML Processor</a></li>
            </ul>
 </div>
    
     <div id="Container">
-         <img id="gif" src="giphy.gif"/>
+         
     </div>
         <div class="paragraph">
           
@@ -48,7 +48,132 @@
            <b>The World Wide Web</b> is a global combination of all resources in the internet that uses Hypertext Transfer Protocol(HTTP). Tim-Berners Lee, father of the web, the inventor of the web and director of the World Wide Web Consortium(W3C) which was founded in September 1994 at the Massachusetts Institute of Technology with support from Defense Advanced Research Projects Agency (DARPA) and the European Commission.
             The World Wide Web accesses info over the internet and it sends data over the network. Basic Advantages of the internet is when you are connected to the devices. 
            Internet is a global system of interconnected computer network that uses Internet Protocol Suite(TCP/IP) and writes via computers accessed over the internet.</p>
+	</div>  
+	
+	<div id="Container1">
     </div>
+        <div class="paragraph1">
+          
+            <h1 class="http-title-1"><b>HTTP Version History:</b></h1><br>
+                <ul>
+                    <li>HTTP 0.9 (1991)</li>
+                    <li>HTTP 1.0 (RFC 1945, May 1996)</li>
+                    <li>HTTP 1.1 (RFC 2068 Jan 1997, RFC 2616 June 1999)</li>
+                    <li>RFC 7230-7235 (June 2014)</li>
+                    <li>HTTP 2 (RFC 7540 May 2015)</li>
+                </ul>
+                <p>- HTTP is a stateless communications protocol and servers do not keep information about client’s in-between requests.</p><br>
+                <ul>
+                    <li>- HTTP is a stateless communications protocol and servers do not keep information about client’s in-between requests.</li>
+                    <li>Cache control</li>
+                    <li>Content media type (MIME) Specification</li>
+                    <li>Language and character set specification</li>
+                </ul>
+            <h1 class="http-title-2"><b>HTTP Resource Addressing</b></h1><br>
+                <ul>
+                    <li>HTTP resources are identified using URLs (RFC 3986)</li>
+                    <li>cheme (http or https)</li>
+                    <li>Authority is a user information or authentication credentials </li>
+                    <li>Domain name (resolved to an IP address using) of the server where the resource resides </li>
+                </ul>
+            <h1 class="http-title-3"><b>HTTP Request Message</b></h1><br>
+            <p>Request Line</p><br>
+                <ul>
+                    <li>Method</li>
+                    <li>Request Target</li>
+                    <li>Protocol version</li>
+                </ul>
+            <h1 class="http-title-4"><b>HTTP Response Message</b></h1><br>
+            <p><b>Status Line:</b></p>
+                <ul>
+                    <li>Protocol version</li>
+                    <li>Status code</li>
+                    <li>Reason Phrase</li>
+                </ul>
+            <p><b>Message Headers:</b></p>
+                <ul>
+                    <li>General Header Fields</li>
+                    <li>Request Header Fields </li>
+                    <li>Entity Headers Fields</li>
+                    <li>Response Header Fields</li>
+                </ul>
+            <h1 class="http-title-5"><b>Method Properties:</b></h1><br>
+            <p>
+                Safe Methods
+                -   Read-only
+                -   GET, HEAD, OPTIONS, TRACE
+                -   No change of state on the origin server
+                Idempotent Methods 
+                -   Intended effect on the server of multiple
+                -   GET, HEAD, OPTIONS, TRACE, PUT, DELETE
+                -   Same as the effect of a single request
+                -   Change in server with confirmation
+            </p>
+            <h1 class="http-title-6"><b>HTTP Status Codes</b></h1><br>
+            <p>Status Codes – Starts with 3 digits</p>
+            <h1 class="http-title-6"><b>Informational (1XX)</b></h1><br>
+                <ul>
+                    <li>100 Continue</li>
+                    <li>101 Switching Protocols</li>
+                </ul>
+            <h1 class="http-title-6"><b>Success (2XX)</b></h1><br>
+                <ul>
+                    <li>200 OK</li>
+                    <li>201 Created</li>
+                    <li>202 Accepted</li>
+                    <li>203 Non-Authoritative Information</li>
+                    <li>204 No Content</li>
+                    <li>205 Reset Content</li>
+                    <li>206 Partial Content</li>
+                </ul>
+                <h1 class="http-title-7"><b>Redirection (3XX)</b></h1><br>
+                    <ul>
+                        <li>300 Multiple Choices</li>
+                        <li>301 Moved Permanently </li>
+                        <li>302 Found</li>
+                        <li>303 See other</li>
+                        <li>304 Not modified</li>
+                        <li>305 Use proxy</li>
+                        <li>307 Temporal Redirect</li>
+                    </ul>
+                <h1 class="http-title-8"><b>Client Error (4XX)</b></h1><br>
+                <li>400 Bad Request</li>
+                <li>401 Unauthorized</li>
+                <li>402 Payment Required</li>
+                <li>403 Forbidden</li>
+                <li>404 Not Found</li>
+                <li>405 Method Not Allowed</li>
+                <li>406 Not Acceptable</li>
+                <li>407 Proxy Authentication Required</li>
+                <li>408 Request Timeout</li>
+                <li>409 Conflict</li>
+                <li>410 Gone</li>
+                <li>411 Length required</li>
+                <li>412 Precondition failed</li>
+                <li>413 Request Entity Too Large</li>
+                <li>414 Request-URL Too Long</li>
+                <li>415 Unsupported Media Type</li>
+                <li>416 Request Range Not Satisfiable</li>
+                <li>417 Expectation Failed</li>
+                <h1 class="http-title-8"><b>Server Error (5XX))</b></h1><br>
+                <ul>
+                    <li>500 Internal Server Error</li>
+                    <li>501 Not Implemented</li>
+                    <li>502 Bad Gateway</li>
+                    <li>503 Service Unavailable</li>
+                    <li>504 HTTP Version Not Supported </li>
+                </ul>
+
+    </div> 
+	
+	<div id="Container2">
+	</div>
+	<div id="Container3">
+	</div>
+	<div id="Container4">
+	</div>
+	
+            
  
     <div id="footer">
         
@@ -59,5 +184,7 @@
 </html>
 
 
+
+	
 
 	
