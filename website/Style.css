@@ -2,7 +2,7 @@ html{
     width: 100%;
 }
 body {
-	background: #c7c7c7;
+	background: #b7ced0;
 	margin: 0px;
 	border: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -23,6 +23,7 @@ body {
     list-style-type: none;
     font-family: 'Roboto Slab', sans-serif;
     padding: 10px 10px 10px 10px;
+    opacity: 0.8;
 }
 
 .topnav a {
@@ -60,13 +61,14 @@ header{
 
 #banner{
     width: 100%;
+    opacity: 8;
 }
 
 .leftcolumn{
     float: left;
     padding:1px;
 	width: 20%;
-	height: 100%;
+	height: 50%;
 	background: #116466;;
     border: 1px solid #557A95;
     margin-top: 6px;
@@ -104,20 +106,34 @@ div ul li a:hover{
 .container {
     margin-top: 6px;
     margin-right: 10px;
+    margin-left: 10px;
     overflow: hidden;
     width: auto;
     padding: 20px;
     height: 100%;
 }
+
 .border {
     background-color: whitesmoke;
     padding: 30px 60px;
 }
 
+.border-u{
+    background-color: white;
+}
+
+.borders {
+    background-color: black;
+}
+
 .tim {
     float: right;
     text-align: center;
-    margin-right: 40px;
+}
+
+.abt {
+    float: left;
+    color: white;
 }
 
 .http-pic {
@@ -126,6 +142,21 @@ div ul li a:hover{
     margin: auto;
 }
 
+#htpic {
+    width: 100%;
+}
+
+#htpic2 {
+    width: 100%;
+}
+
+#urlpic {
+    width: 100%;
+}
+
+#dacs {
+    width: 100%;
+}
 .notfound {
     float: left;
     text-align: center;
@@ -142,6 +173,13 @@ div ul li a:hover{
     width: 100%;
 }
 
+#htmlpic {
+    width: 250px;
+    margin-left: 10px;
+}
+#htmgif {
+    width: 100%;
+}
 
 figcaption {
     font-size: 80%;
@@ -154,13 +192,12 @@ p {
     font-size: 1.5em;
 }
 
-#http {
-    font-size: 1em;
+#psize {
+    font-size: 1.2em;
 }
 
-
 #fd {
-    background: #c57e7e;
+    background: #000000;
     padding: 4px;
     margin-top: 10px;
 }
@@ -173,7 +210,5 @@ footer p {
      font-family: 'Krona One', sans-serif;
      text-align: inherit;
      font-size: 1em;
-     color: antiquewhite;
+     color: #000000;
 }
-
-
