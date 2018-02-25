@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   <meta charset="UTF-8">
+	   <title>Prelims</title>
+	   <link rel="stylesheet" type="text/css" href="Style.css">
+	   <link href="https://fonts.googleapis.com/css?family=Bellefair|Krona+One|Open+Sans|PT+Sans|Roboto+Slab" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <a href="index.html">   
+            <img id="banner" src="site-banner.png" align="middle" alt="Site Banner"> </a>
+    </header>
+
+    <nav class="topnav">
+        <li>
+		<a class="current" href="">PRELIMS</a>
+		<a href="">MIDTERMS</a>
+		<a href="">FINALS</a>
+        <a id="abt" href="">ABOUT US</a>
+        </li>
+            
+    </nav>
+    
+    <div class="leftcolumn">
+	       <ul>
+	           <li><a href="index.html">Overview of the WWW </a> </li>
+	           <li><a class="stay" href="http.html">HTTP</a></li>
+	           <li><a href="url.html">URL</a></li>
+	           <li><a href="html.html">HTML</a></li>
+               <li><a href="html_processors.html">HTML Processor</a></li>
+           </ul>
+</div>
+   
+    <div class="container border">
+        <h1>Hypertext Transfer Protocol</h1>
+        
+        <aside class="tim">
+            <figure>
+                <img src="http.png" alt="HTTP"> 
+                <figcaption>HTTP</figcaption>
+            </figure>
+        </aside>
+        <h2>HTTP Version History:</h2>
+        <p><li>HTTP 0.9 (1991)</li>
+            <li>HTTP 1.0 (RFC 1945, May 1996</li>
+            <li>HTTP 1.1 (RFC 2068 Jan 1997, RFC 2616 June 1999</li>
+            <li>RFC 7230-7235 (June 2014)</li>
+            <li>HTTP 2 (RFC 7540 May 2015)</li>
+        </p>
+        <p id="http">- HTTP is a stateless communications protocol and servers that do not keep information about client’s in-between requests. HTTP provides support for other functionalities such as:
+        <li>Cache control</li>
+        <li>Content media type (MIME) Specification</li>
+        <li>Language and character set specification</li>
+        </p>
+        
+        <h2>HTTP Resource Addressing</h2>
+        <li>HTTP resources are identified using URLs (RFC 3986)</li>
+        <li>Scheme (http/https)</li>
+        <li>Autority is a user information or authentication credentials</li>
+        <li>Domain name (resolved to an IP address using) of the server where the resource resides</li>
+        
+        <aside class="http-pic">
+            <figure>
+                <img src="http.jpg" alt="HTTP Picture"> 
+                <figcaption>© www.assertive-media.co.uk/blog/images/http.jpg</figcaption>
+            </figure>
+        </aside>
+        
+        <h2>HTTP Request Message</h2>
+        <h3>Request Line:</h3>
+        <li>Method</li>
+        <li>Request Target</li>
+        <li>Protocol Version</li>
+        
+        <h2>HTTP Response Message</h2>
+        <h3>Status Line:</h3>
+        <li>Protocol Version</li>
+        <li>Status Code</li>
+        <li>Reason Phrase</li>
+        
+        <h3>Message Headers:</h3>
+        <li>General Header Fields</li>
+        <li>Request Header Fields</li>
+        <li>Entity Header Fields</li>
+        <li>Response Header Fields</li>
+        
+        <h3>Standard Methods:</h3>
+        <li>GET - acquire resource</li>
+        <li>HEAD - identical to GET. Retrieve metadata</li>
+        <li>POST - HTML from data, if data is too long use this</li>
+        <li>DELETE - remove resource</li>
+        <li>OPTIONS - communications available for the resource</li>
+        <li>TRACE - request a remote, loop-back, response</li>
+        <li>CONNECT - establish tunnel between server and client.</li> 
+        
+        <h2>HTTP Status Codes</h2>
+        <p class="http">Status Codes - Starts with 3 digits</p>
+        
+        <h3>Informational (1XX)</h3>
+        <li>100 Continue</li>
+        <li>101 Switching Protocols</li>
+        
+        <h3>Success (2XX)</h3>
+        <li>200 OK</li>
+        <li>201 Created</li>
+        <li>202 Accepted</li>
+        <li>203 Non-Authoritative Information</li>
+        <li>204 No Content</li>
+        <li>205 Reset Content</li>
+        <li>206 Partial Content</li>
+        
+        <h3>Redirection (3XX)</h3>
+        <li>300 Multiple Choices</li>
+        <li>301 Moved Permanently</li>
+        <li>302 Found</li>
+        <li>303 See Other</li>
+        <li>304 Not Modified</li>
+        <li>305 Use Proxy</li>
+        <li>307 Temporal Redirect</li>
+        
+        <aside class="notfound">
+            <figure>
+                <img id="nf" src="404.png" alt="Not Found"> 
+            <figcaption>© www.404.ie/</figcaption>
+            </figure>
+        </aside>
+        
+        <h3>Client Error(4XX)</h3>
+        <li>400 Bad Request</li>
+        <li>401 Unauthorized</li>
+        <li>402 Payment Required</li>
+        <li>403 Forbidden</li>
+        <li>404 Not Found</li>
+        <li>405 Method Not Allowed</li>
+        <li>406 Not Acceptable</li>
+        <li>407 Proxy Authentication Required</li>
+        <li>408 Request Timeout</li>
+        <li>409 Conflict</li>
+        <li>410 Gone</li>
+        <li>411 Length Required</li>
+        <li>412 Precondition Failed</li>
+        <li>413 Request Entity Too Large</li>
+        <li>414 Request-URL Too Long</li>
+        <li>415 Request Range Not Satisfiable</li>
+        <li>417 Expectation Failed</li>
+        
+        <h3>Server Error (5XX)</h3>
+        <li>500 Internal Server Error</li>
+        <li>501 Not Implemented</li>
+        <li>502 Bad Gateway</li>
+        <li>503 Servuce Unavailable</li>
+        <li>504 HTTP Version Not Supported</li>
+        
+        <aside class="gif">
+            <figure>
+                <img id="giphy" src="gif.gif" alt="connection"> 
+            </figure>
+        </aside>
+
+    </div>
+    <div id="fd">
+    </div>
+    <footer>
+        <p>Web Technology 2018</p>   
+        
+      
+    </footer>
+    
+</body>
+</html>
+
+
+
+	
